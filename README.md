@@ -12,9 +12,11 @@ Use Statistics and R to perform an analysis.
 * Summary of Linear Regression
 ![linear-model-summary](https://github.com/psidhu42/mechacar-statistical-analysis/blob/main/resources/images/02-linear-model-summary.png)
 
-- The "Vehicle Length", and "Ground Clearance" were the variables that provided the greatest non-random amount of variance to the MPG values.
-- Is the slope of the linear model considered to be zero? Why or why not?
-- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+- Shown in a purple outline in the second image above, the "Vehicle Length", and "Ground Clearance" were the variables that provided the greatest non-random amount of variance to the MPG values.
+
+- Based on the p-value shown above, circled in green it is lower than zero, the slope of the linear model should be considered non-zero.
+
+- This linear model predicts mpg of MechaCar prototypes effectively because the R-squared value is about 71%, which tells us that the majority of the results will be accurate.
 
 ## Summary Statistics on Suspension Coils
 
@@ -24,7 +26,7 @@ Use Statistics and R to perform an analysis.
 * Lot Summary
 ![lot-summary](https://github.com/psidhu42/mechacar-statistical-analysis/blob/main/resources/images/04-lot-summary-df.png)
 
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Looking at the current manufacturing data, the variable PSI is at 62.29 (See Total Summary Chart Above) which meets this design specification for 100 PSI.
 
 ## T-Tests on Suspension Coils
 
@@ -40,7 +42,7 @@ Use Statistics and R to perform an analysis.
 * t-test Lot 3
 ![t-test-lot-3](https://github.com/psidhu42/mechacar-statistical-analysis/blob/main/resources/images/08-t-test-lot-3.png)
 
-- Briefly summarize your interpretation and findings for the t-test results.
+- The t-test for All Lots and Lot 3 is a negative value, and for Lot 1 and Lot 2 the value is 0. Based on this, there is no significance in the difference between groups.
 
 ## Study Design: MechaCar vs Competition
 
