@@ -6,8 +6,8 @@ Use Statistics and R to perform an analysis.
 
 ## Linear Regression to Predict MPG
 
-![NAME](Link)
-![NAME](Link)
+![lm-function-linear-model](https://github.com/psidhu42/mechacar-statistical-analysis/blob/main/resources/images/01-lm-function-linear-model.png)
+![linear-model-summary](https://github.com/psidhu42/mechacar-statistical-analysis/blob/main/resources/images/02-linear-model-summary.png)
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - Is the slope of the linear model considered to be zero? Why or why not?
@@ -15,15 +15,17 @@ Use Statistics and R to perform an analysis.
 
 ## Summary Statistics on Suspension Coils
 
-![NAME](Link)
-![NAME](Link)
+![total-summary](https://github.com/psidhu42/mechacar-statistical-analysis/blob/main/resources/images/03-total-summary-df.png)
+![lot-summary](https://github.com/psidhu42/mechacar-statistical-analysis/blob/main/resources/images/04-lot-summary-df.png)
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 ## T-Tests on Suspension Coils
 
-![NAME](Link)       ![NAME](Link)
-![NAME](Link)       ![NAME](Link)
+![t-test-all](https://github.com/psidhu42/mechacar-statistical-analysis/blob/main/resources/images/05-t-test-all.png)
+![t-test-lot-1](https://github.com/psidhu42/mechacar-statistical-analysis/blob/main/resources/images/06-t-test-lot-1.png)
+![t-test-lot-2](https://github.com/psidhu42/mechacar-statistical-analysis/blob/main/resources/images/07-t-test-lot-2.png)
+![t-test-lot-3](https://github.com/psidhu42/mechacar-statistical-analysis/blob/main/resources/images/08-t-test-lot-3.png)
 
 - Briefly summarize your interpretation and findings for the t-test results.
 
