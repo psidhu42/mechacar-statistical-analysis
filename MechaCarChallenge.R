@@ -19,10 +19,10 @@ summary(lm(mpg~vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AWD,
 CoilData <- read.csv(file='Suspension_Coil.csv')
 
 # Create Summary Table for CoilData
-summarize_coil <- CoilData %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
+total_summary <- CoilData %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
 
 # Create Lot Summary
-lot_coil_summary <- CoilData %>% group_by(Manufacturing_Lot) %>% 
+lot_summary <- CoilData %>% group_by(Manufacturing_Lot) %>% 
   summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups='keep')
 
 
