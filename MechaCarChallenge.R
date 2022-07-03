@@ -6,10 +6,10 @@ library(dplyr)
 # Load csv file as data frame.
 MechaCarMPG <- read.csv(file='MechaCar_mpg.csv')
 
-# Create linear model using the lm() function.
+# Perform linear regression using the lm() function.
 lm(mpg~vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AWD,data=MechaCarMPG)
 
-# Summarize Liner model
+# Summarize the liner regression.
 summary(lm(mpg~vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AWD,data=MechaCarMPG))
 
 
