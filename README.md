@@ -53,3 +53,5 @@ The analysis above shows us that, car weight, spolier angle, and AWD are most li
 - Alternative Hypothesis: MechaCar's wheel size is too large or to small and thus gets a lower MPG rating compared to the competition.
 - A Multiple Linear Regression test would be useful for this metric as you can have more than two variables as wheel size types.
 - The data needed for this would have to be various MechaCars with the same specs with the only diffrence being wheel size.
+
+If a customer has access to this information, it can help improve their decsion on what wheel size to go with on their own car. Further improving their ability to increase their MPG rating based on their own driving habits.
