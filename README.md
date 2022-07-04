@@ -16,7 +16,7 @@ Use Statistics and R to perform an analysis.
 
 - Based on the p-value shown above, circled in green it is lower than zero, the slope of the linear model should be considered non-zero.
 
-- This linear model predicts mpg of MechaCar prototypes effectively because the R-squared value is about 71%, which tells us that the majority of the results will be accurate.
+- This linear model predicts MPG of MechaCar prototypes effectively because the R-squared value is about 71%, which tells us that the majority of the results will be accurate.
 
 ## Summary Statistics on Suspension Coils
 
@@ -26,7 +26,7 @@ Use Statistics and R to perform an analysis.
 * Lot Summary
 ![lot-summary](https://github.com/psidhu42/mechacar-statistical-analysis/blob/main/resources/images/04-lot-summary-df.png)
 
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Looking at the current manufacturing data, the variable PSI is at 62.29 (See Total Summary Chart Above) which meets this design specification for 100 PSI.
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Looking at the current manufacturing data, the variable PSI is at 62.29 (See Total Summary Chart Above) which falls with-in the design specification of 100 PSI.
 
 ## T-Tests on Suspension Coils
 
@@ -42,15 +42,14 @@ Use Statistics and R to perform an analysis.
 * t-test Lot 3
 ![t-test-lot-3](https://github.com/psidhu42/mechacar-statistical-analysis/blob/main/resources/images/08-t-test-lot-3.png)
 
-- The t-test for All Lots and Lot 3 is a negative value, and for Lot 1 and Lot 2 the value is 0. Based on this, there is no significance in the difference between groups.
+- In the t-test for All Lots and Lots 1 and 2 the p-values were not low enough (below 0.05) to reject the null hypothesis. For Lot 3 the p-value is low enough to reject the null hypothesis, however compared to the others, Lot 3 may need a more detailed analysis to understand why it shows lower performance.
 
 ## Study Design: MechaCar vs Competition
 
-- Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+The analysis above shows us that, car weight, spolier angle, and AWD are most likely to effect the MechaCars performance in terms of MPG. 
 
-- In your description, address the following questions:
-
-* What metric or metrics are you going to test?
-* What is the null hypothesis or alternative hypothesis?
-* What statistical test would you use to test the hypothesis? And why?
-* What data is needed to run the statistical test?
+- Another such metric that could be tested is Wheel Size.
+- Null Hypothesis: MechaCar has the optimal wheel size to get the most MPG possible.
+- Alternative Hypothesis: MechaCar's wheel size is too large or to small and thus gets a lower MPG rating compared to the competition.
+- A Multiple Linear Regression test would be useful for this metric as you can have more than two variables as wheel size types.
+- The data needed for this would have to be various MechaCars with the same specs with the only diffrence being wheel size.
